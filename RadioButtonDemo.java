@@ -9,7 +9,7 @@ public class RadioButtonDemo extends JFrame implements ActionListener {
 
     public RadioButtonDemo() {
         setTitle("RadioButtonDemo");
-        setSize(500, 400); // Slightly larger for the image
+        setSize(500, 400); 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
@@ -44,7 +44,7 @@ public class RadioButtonDemo extends JFrame implements ActionListener {
 
         // Label to show the image
         imageLabel = new JLabel();
-        imageLabel.setPreferredSize(new Dimension(250, 250)); // Fix display size
+        imageLabel.setPreferredSize(new Dimension(250, 250)); 
         add(imageLabel);
 
         setVisible(true);
